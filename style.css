@@ -89,17 +89,6 @@ header .navigation a {
   margin-right: 200px;
 }
 
-header .navigation a {
-  color: crimson;
-  text-decoration: none;
-  font-weight: 700;
-  letter-spacing: 1px;
-  padding: 2px 15px;
-  border-radius: 20px;
-  transition: 0.3s;
-  transition-property: background;
-}
-
 .media-icons a:hover {
   transform: scale(1.5);
 }
