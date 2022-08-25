@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "BhuTuka", sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background: url(SCL.jpg)no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.content{
+    max-width: 650px;
+    margin: 60px 100px;
+}
+.content .info h2{
+    color: crimson;
+    font-size: 35px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 2px;
+    line-height: 60px;
+    margin-bottom: 30px;
+}
+.content .info h2 span{
+    color: cornsilk;
+    font-size: 35px;
+    font-weight: 700;
+}
+.content .info p{
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 40px;
+}
+header{
+    color: #000;
+    position: relative;
+    top: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    color: crimson;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 1px;
+    background: url(LYS01.jpg)no-repeat;
+
+}
+header .navigation a{
+    color: crimson;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 2px 15px;
+    border-radius: 20px;
+    transition: 0.3s;   
+    transition-property: background; 
+}
+.header .navigation a:not(:last-child){
+    margin-right: 30px;
+}
+.media-icons{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;    
+}
+.media-icons a{
+    position: relative;
+    color: #111;
+    font-size: 30px;
+}
+.media-icons a:not(:last-child){
+    margin-right: 200px;
+}
+
+.media-icons a:hover{
+    transform: scale(1.5);
+}
