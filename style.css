@@ -63,12 +63,14 @@ header .logo {
   background: url(LYS01.jpg) no-repeat;
 }
 
-.media-icons a:not(:last-child) {
-  margin-right: 200px;
+.media-icons a {
+  position: relative;
+  color: #111;
+  font-size: 30px;
 }
 
-.media-icons a:hover {
-  transform: scale(1.5);
+.media-icons a:not(:last-child) {
+  margin-right: 200px;
 }
 
 header .navigation a {
@@ -81,17 +83,18 @@ header .navigation a {
   transition: 0.3s;
   transition-property: background;
 }
+
+.media-icons a:hover {
+  transform: scale(1.5);
+}
+
 .header .navigation a:not(:last-child) {
   margin-right: 30px;
 }
+
 .media-icons {
   display: inline-flex;
   justify-content: center;
   align-items: center;
   margin: auto;
-}
-.media-icons a {
-  position: relative;
-  color: #111;
-  font-size: 30px;
 }
